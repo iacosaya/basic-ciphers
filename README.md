@@ -1,7 +1,7 @@
 # Basic Ciphers
 A collection of basic ciphers by me (if these already exist I do not know about them)
 
-# 1. "Difference Data Cipher"
+# 1. "Data Difference Cipher"
 This cipher takes a string consisting of the 26 letters of the alphabet and whitespaces only and finds their position in the alphabet and the difference between that and the position of the key (a single letter from the 26 in the alphabet) which is the difference part of the cipher.
 The "data" part is including basic ways to read data, like the length of it and the range of the values (only with integers). So the previously generated number from the difference is added together with the range and length of the string (excluding whitespaces) and then the final output is printed.
 When running the python file it also prints out various stages of the process, but all you need to know is the final print() - same with the decoder.
